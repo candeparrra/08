@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <img src="/elpaislogo.png" alt="logo">
+    </header>
+    <main>
+        <form action="/archivo" method="post">
+
+            <fieldset> <!-- Conjunto de campos -->
+
+                <legend>Datos personales</legend> <!-- Le damos un titulo al conjunto-->
+                <div>
+
+
+                    <input type="text" name="Nombre" placeholder="Nombre*" id="Nombre"> <!--Para que le cliente ingrese el dato-->
+
+                    <input type="text" name="Apellido" placeholder="Apellido*" id="Apellido"> <!--Para que le cliente ingrese el segundo dato-->
+
+                </div>
+
+                <div>
+                    
+                    <select name="nose" id="nose">
+                        <option value="">CC </option>
+                        <option value="river"> River </option>
+                        <option value="San-lorenzo">San Lorenzo</option>
+                    </select>
+                    <input type="text" name="documento" placeholder="Número de documento*" id="documento"> <!--Para que le cliente ingrese el tercer dato-->
+
+
+                </div>
+                <div>
+                    <input type="text" name="correo" placeholder="Correo electrónico*" id="correo"> <!--Para que le cliente ingrese el cuarto dato-->
+                </div>
+                <div>
+                    <select name="nose" id="nose">
+                        <option value="">CC </option>
+                        <option value="river"> River </option>
+                        <option value="San-lorenzo">San Lorenzo</option>
+                    </select>
+                    <nav>
+                        <ul></ul>
+                    </nav>
+                    <a href=""></a>
+                </div>
+
+            </fieldset>
+
+            <fieldset> <!-- input tipo radio-->
+                <legend>Interes personal</legend>
+                <div>
+                    <label for="deporte">Natacion</label>
+                    <input type="radio" name="deporte" id="natacion" value="natacion">
+                    <!--Value guarda el valor que será enviado al servidor-->
+                    <label for="deporte">Futbol</label>
+                    <input type="radio" name="deporte" id="Futbol" value="Futbol">
+                    <label for="deporte">Basquet</label>
+                    <input type="radio" name="deporte" id="Basquet" value="Basquet">
+                </div>
+
+                <div>
+                    
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Escribe sobre ti</legend>
+                <label for="texto"> Descripción</label>
+                <textarea name="texto" id="texto" cols="10" rows="10"></textarea>
+            </fieldset>
+            <h3>hola</h3>
+
+        </form>
+    </main>
+</body>
+
+</html>
