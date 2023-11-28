@@ -1,7 +1,53 @@
 
 body{
-    color: rgb(4, 4, 75);
+    color: rgb(0, 0, 0);
 }
 header{
     background-color: #fff
+}
+nav{
+    background-color: rgb(245, 245, 54);
+    height: 60px;
+    text-decoration: none;
+    display: flex;
+}
+a{
+    color: black;
+
+    text-decoration: none;
+    margin-right: 40px;
+}
+.nav-link{
+    margin-top: 10px;
+}
+fieldset{
+    border-color: #fff0;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.logo{
+    margin-right: 285px;
+    margin-left: 35px;
+}
+main{
+    margin-bottom: 15px;
+}
+input {
+    margin-bottom: 25px;
+    width: 195px;
+    height: 30px;
+}
+#card{
+    width: 195px;
+    height: 35px;
+}
+.links{
+    margin-top: 20px;
+
+}
+footer{
+    display: flex;
+    background-color: blue;
+    width: 100%;
 }
