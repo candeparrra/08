@@ -1,53 +1,86 @@
-
-body{
+body {
     color: rgb(0, 0, 0);
 }
-header{
+
+header {
     background-color: #fff
 }
-nav{
-    background-color: rgb(245, 245, 54);
+
+nav {
+    background-color: rgb(245, 194, 54);
     height: 60px;
     text-decoration: none;
     display: flex;
 }
-a{
+
+a {
     color: black;
 
     text-decoration: none;
     margin-right: 40px;
 }
-.nav-link{
+
+.nav-link {
     margin-top: 10px;
 }
-fieldset{
+
+fieldset {
     border-color: #fff0;
     margin-left: 450px;
-    margin-bottom: 10px;
-    margin-top: 30px;
+    margin-left: 720px;
 }
-.logo{
+
+.logo {
     margin-right: 285px;
-    margin-left: 35px;
+    margin-left: 65px;
 }
-main{
+
+main {
     margin-bottom: 15px;
 }
+
 input {
     margin-bottom: 25px;
     width: 195px;
     height: 30px;
 }
-#card{
+
+#card {
     width: 195px;
     height: 35px;
 }
-.links{
-    margin-top: 20px;
 
+.links {
+    margin-top: 20px;
+    margin-left: 230px;
 }
-footer{
+
+
+form {
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 140px;
+}
+
+#redes {
     display: flex;
-    background-color: blue;
-    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#boton {
+    width: 100px;
+    background-color: #f5c236;
+}
+
+#calle {
+    width: 400px;
 }
